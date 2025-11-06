@@ -50,6 +50,10 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Enthusiastic and creative multiplatform application and game developer with hands-on experience in C#, Java, and Python. Specialized in both software development and video game creation using Unity and Godot. Although I am at the beginning of my professional career, I have completed a six-month internship divided between customer support (hardware and systems) and software development with Python, gaining valuable real-world experience.
 
+  I am known for my efficiency, quick learning, and problem-solving skills, often leading group projects and tackling challenges that others found difficult. My curiosity and collaborative spirit drive me to continuously improve and innovate, especially in the field of video game programming, where I enjoy designing mechanics and solving complex logic puzzles.
+
+  Native Spanish speaker with a strong command of English, as I prefer to work and create in English whenever possible. I am seeking a position where I can feel comfortable, work as part of a team, and do what I am passionate about: programming and creating engaging experiences.
+
 content:
   # - title: Projects # Title for the section
   #   layout: list # Type of content section (list/text)
