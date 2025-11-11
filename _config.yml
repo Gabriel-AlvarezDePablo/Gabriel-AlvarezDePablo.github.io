@@ -6,13 +6,13 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Gabriel Alvarez De Pablo
-title: Software developer student
+name: "Gabriel Álvarez De Pablo"
+title: Software Developer
 email: gabriel.alvarezdepablo@gmail.com
 website: https://gabriel-alvarezdepablo.github.io/
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 # twitter_username: facespics
@@ -55,24 +55,30 @@ about_content: | # this will include new lines to allow paragraphs
   Native Spanish speaker with a strong command of English, as I prefer to work and create in English whenever possible. I am seeking a position where I can feel comfortable, work as part of a team, and do what I am passionate about: programming and creating engaging experiences.
 
 content:
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: top-middle
-  #       title: Super awesome project
-  #       link: github.com/Gabriel-AlvarezDePablo
-  #       # link_text: Project Website
-  #       additional_links:
-  #         - title:  Gabriel-AlvarezDePablo/modern-resume-theme
-  #           icon: fab fa-github
-  #           url: github.com/Gabriel-AlvarezDePablo/modern-resume-theme
-  #         # - title:  Github page for project (eg. Gabriel-AlvarezDePablo/modern-resume-theme)
-  #         #   icon: fab fa-github
-  #         #   url: Link to project (eg. Gabriel-AlvarezDePablo.github.io/modern-resume-theme)
-  #       quote: >
-  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-  #       description: | # this will include new lines to allow paragraphs
-  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: "Spring Boot Learning: Product Service"
+        link: https://github.com/Gabriel-AlvarezDePablo/product-service
+        link_text: product-service
+        quote: >
+          A RESTful microservice for managing product catalog, built with Spring Boot 3 and containerized with Docker.
+        description: |
+          This project demonstrates the fundamentals of **microservices architecture** and **RESTful API design**.
+          Built with **Java 21**, **Spring Boot 3.2**, and **Docker**, it provides a complete product catalog service
+          with full CRUD functionality, in-memory database integration (H2), and CORS-enabled frontend support.
+
+          Key aspects include:
+          - Implemented CRUD operations using **Spring Data JPA**.
+          - Designed and exposed **RESTful endpoints** for product management.
+          - Integrated **H2 in-memory database** for lightweight development.
+          - Containerized the service using **Docker** for environment consistency.
+          - Configured **CORS policies** for frontend interaction.
+          - Followed clean architecture principles with layered separation of concerns.
+
+          Through this project, I deepened my understanding of **Spring Boot**, **Docker**, and **modern API development** while applying
+          best practices in modularity, maintainability, and scalability.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -158,7 +164,7 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
